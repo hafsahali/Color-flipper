@@ -1,39 +1,39 @@
-function Totalscore(grade){
-    if (grade >=70 && grade <=100){
+function Totalscore(entry){
+    if (entry >=70 && entry <=100){
         result= "A"
     }
-    else if(grade >=60 && grade <=69){
+    else if(entry >=60 && entry <=69){
         result = "B"
     }
-    else if(grade >=50 && grade <=59){
+    else if(entry >=50 && entry <=59){
         result = "C"
     }
-    else if(grade >=45 && grade <=49){
+    else if(entry >=45 && entry <=49){
         result = "D"
     }
-    else if(grade >=40 && grade <=35){
+    else if(entry >=40 && entry <=35){
         result = "E"
     }
-    else if(grade >= 0 && grade <=39){
+    else if(entry >= 0 && entry <=39){
         result = "F"
     }
     else{
-        result = "Invalid Score"
+        result = "your entry score"+Invalid 
     }
     console.log(result)
+}
+function score()
 
-function score(CA1,CA2,exam){
-    if (CA1,CA2 >=0 && CA1,CA2 <=20){
-        return CA1+CA2+exam
-    }
-    else if(exam>=0 && exam <=60){
-        return CA1+CA2+exam
-    }
+
+function roundscore(score){
+    if(score>=70 || score<43)
+    return score
+}
+   elseif(score%10>=8){
+       const addedMark=10-(score%10)
+       return score+addedMark
+   }
     else{
-    console.log("invalid score")
+       return score
    }
 
-}
-
-Totalscore(score(13,12,50))
-}
