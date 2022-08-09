@@ -12,3 +12,12 @@ function getRandomNumber(){
     return Math.floor(Math.random() * hex.length);
 }
 
+// // USING RGB COLOR
+// const color=document.querySelector("body")
+// function getRandomColor(){
+//     const r = Math.floor(Math.random()*(255-0) + 0)
+//     const g = Math.floor(Math.random()*(255-0) + 0)
+//     const b = Math.floor(Math.random()*(255-0) + 0)
+//     return 'rgb' ($[r],$[g],${b )
+    
+// }

@@ -5,26 +5,50 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-color:rgba(15, 14, 14, 0.137);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 1000ms;
 }
 .navbar h2{
     text-align: center;
-    background-color:silver;
-    box-shadow:  0 5px 15px black;
+    background-color: rgb(95, 205, 219);
+    font-weight: bold;
+    box-shadow:  0 5px 15px rgba(22, 116, 179, 0.2);
 }
-.navbar button{
-    padding: 5px 15px;
+.main{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 15rem;
+}
+.main h2{
+    background-color:#135564;
+    color:#05ffde;
+    overflow: hidden;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.main button{
+    padding: 5px 15px 5px 15px;
     justify-content: baseline;
     margin: 10px;
-    background-color: white;
-    border: solid #000 5px;
-    border-radius: 10%; 
-    transition: 0.5s;
+    background-color: transparent;
+    border: solid rgb(3, 57, 73) 2px;
+    border-radius: 8%;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
 }
 button:active {
     transform: translate(0, 0.5rem);
     box-shadow: 0 0.1rem rgba(255, 255, 255, 0.95);
   }
 .main button:hover{
-    background-color: whitesmoke;
+    background-color: rgb(6, 255, 243);
 }
