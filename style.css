@@ -10,9 +10,9 @@
 }
 .navbar h2{
     text-align: center;
-    background-color: rgb(95, 205, 219);
+    background-color: whitesmoke;
     font-weight: bold;
-    box-shadow:  0 5px 15px rgba(22, 116, 179, 0.2);
+    box-shadow:  0 5px 15px blanchedalmond;
 }
 .main{
     justify-content: center;
@@ -22,8 +22,8 @@
     padding-top: 15rem;
 }
 .main h2{
-    background-color:#135564;
-    color:#05ffde;
+    background-color:whitesmoke;
+    color:black;
     overflow: hidden;
     margin-left: 35%;
     margin-right: 35%;
@@ -38,7 +38,7 @@
     justify-content: baseline;
     margin: 10px;
     background-color: transparent;
-    border: solid rgb(3, 57, 73) 2px;
+    border: solid whitesmoke 2px;
     border-radius: 8%;
     background-color: transparent;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,5 +50,5 @@ button:active {
     box-shadow: 0 0.1rem rgba(255, 255, 255, 0.95);
   }
 .main button:hover{
-    background-color: rgb(6, 255, 243);
+    background-color: whitesmoke;
 }
