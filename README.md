@@ -1,2 +1,2 @@
 # Color-flipper
-A mini DOM event created using JavaScrip functions t
+A mini DOM event created using JavaScript functions
